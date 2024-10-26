@@ -11364,8 +11364,12 @@ body{
 .recommendation:hover {
     color: #A25772; 
 }
-.nav-link:hover,.nav-link:{
+.nav-link:hover{
 color: #A25772 !important; 
+}
+.btn:hover{
+  background-color: #A25772 !important;
+  border-color: #535C91;
 }
 .recImg{
   padding: 40px;
@@ -11379,4 +11383,15 @@ color: #A25772 !important;
 }
 .modal-content{
   background-color: rgba(183, 183, 183, 1) ;
+}
+.objec{
+  font-style:NORMAL !important;
+  font-family: 'Arial', sans-serif;
+}
+.text{
+    font-weight: normal !important;
+text-align: left;  
+}
+.name{
+  font-weight: bolder; !important;
 }
